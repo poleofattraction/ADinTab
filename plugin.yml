@@ -1,0 +1,17 @@
+name: AdBoard
+version: 1.1
+main: ua.sunflower.adboard.AdBoard
+api-version: '1.20'
+depend: [Vault, PlaceholderAPI]
+commands:
+  ad:
+    description: Дошка оголошень
+    usage: /ad <текст>
+permissions:
+  adboard.use:
+    default: true
+  adboard.bypass:
+    description: Без кулдауну
+    default: op
+  adboard.admin:
+    default: op
