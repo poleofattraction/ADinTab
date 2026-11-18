@@ -4,8 +4,11 @@ cooldown-minutes: 60
 duration-minutes: 10      # скільки висить оголошення
 rotate-seconds: 8         # як часто змінюється оголошення в TAB
 max-length: 40
+marquee-width: 22         # ширина "вікна" бігучого рядка (символів)
+marquee-step-ms: 300      # швидкість: зсув на 1 символ кожні N мс
 max-active-ads: 10
 empty-text: "Ваше оголошення: /ad"
 blocked-words:            # проста фільтрація (регістр не важливий)
   - "слово1"
   - "слово2"
+
